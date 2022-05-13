@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@300&family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: 'Courier Prime', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #fdfdfd, #4d4c4c, #000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    height: 90vh;
+}
+.text-header {
+    font-family: 'Raleway';
+}
