@@ -9,9 +9,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="node_modules/moment-timezone/moment-timezone.js"></script>
     <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> <link rel="stylesheet" href="style.css">
 </head>
 <body>   
     <div class="container col-12 col-sm-7 mt-4 main">
@@ -20,64 +21,70 @@
                 <h4 class="float-start" style="font-weight: 900;">TIME ZONE REAL TIME</h4> 
                 <p>See the current time in differents time zones aroud the world.</p>
                 <div class="float-start">
-                <p>You can check the region by hovering the mouse under the flag.</p>
+                <p>You can check the region by hovering the mouse under the flag. &nbsp; 
+                    <span class="badge bg-success text-white d-none birthday">Today is my birth 🎂</span>&nbsp;
+                    <span class="badge bg-warning text-white d-none birthday" data-toggle="tooltip" title="Instagram 😎"><a href="https://www.instagram.com/silva.j0se/" class="text-decoration-none text-white">gif me your cheers!</a></span>
+                    <span class="badge bg-danger text-white d-none float-end christmas">Merry Christmas 🎅</span>
+                    <span class="badge bg-dark text-white d-none float-end programer" data-toggle="tooltip" title="Gitbub 😎"><a href="https://github.com/Bumboobee" class="text-decoration-none text-white">Happy developer's day 💻</a></span>
+                    <span class="badge bg-info text-white d-none float-end turing"><a href="https://www.turing.ac.uk/blog/what-alan-turing-means-us#:~:text=This%20is%20what%20Alan%20Turing,Machinery%20and%20Intelligence'%20in%201950." class="text-decoration-none text-white">Today Alan Turing was born! A toast to him 🥂</a></span></p> 
+                    <span class="badge bg-secondary text-white float-end timerzone"></span>               
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="row g-4 mx-auto">
                 <div class="col-md mx-auto">
-                    <div class="input-group mb-3">
-                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Brazil" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/br" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Brazil" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/br" width="50" height="33" alt="Brazil"></span>
                         <input type="text" class="form-control text-center"  id="br"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
                 <div class="col-md mx-auto">   
-                    <div class="input-group mb-3">
-                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="United States" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/us" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="United States" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/us" alt="USA" srcset=""width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="eua"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
             </div>
             <div class="row g-4 mx-auto">
                 <div class="col-md mx-auto">
-                    <div class="input-group mb-3">
-                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Japan" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/japan" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Japan" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/japan" alt="Japan" srcset=""width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="japan"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
                 <div class="col-md">   
-                    <div class="input-group mb-3">
-                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Germany" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/germany" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Germany" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/germany" alt="Germany" srcset=""width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="germany"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
             </div> 
             <div class="row g-4 mx-auto">
                 <div class="col-md mx-auto">
-                    <div class="input-group mb-3">
-                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Canada" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/canada" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Canada" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/canada" alt="Canada" srcset="" width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="canada"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
                 <div class="col-md mx-auto">   
-                    <div class="input-group mb-3">
-                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="United Kingdom" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/great britain" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="United Kingdom" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/great britain" alt="UK" srcset="" width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="uk"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
             </div>
             <div class="row g-4 mx-auto">
                 <div class="col-md mx-auto">
-                    <div class="input-group mb-3">
-                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Egypt" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/egypt" alt="" srcset=""width="50" height="33"></span>
+                    <div class="input-group mb-3 shadow">
+                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Egypt" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/egypt" alt="Egypt" srcset="" width="50" height="33"></span>
                         <input type="text" class="form-control text-center"  id="egypt"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
                 <div class="col-md">   
-                    <div class="input-group shadow  mb-3">
-                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Spain" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/spain" alt="" srcset=""width="50" height="33"></span>
-                        <input type="text" class="shadow  form-control text-center"  id="spain"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
+                    <div class="input-group mb-3 shadow">
+                        <span  data-bs-toggle="tooltip" type="button" data-bs-placement="top" title="Spain" class="input-group-text" id="basic-addon1"><img src="https://countryflagsapi.com/png/spain" alt="Spain" srcset="" width="50" height="33"></span>
+                        <input type="text" class="form-control text-center"  id="spain"  aria-describedby="basic-addon1" style="font-weight: 700;" disabled>
                     </div>
                 </div>
             </div>
