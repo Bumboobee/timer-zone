@@ -3,13 +3,13 @@ $(document).ready(function () {
     $("#br").val(moment().format("DD/MM/yyyy H:mm:ss"));
     $("#eua").val(moment().subtract(1, "hours").format("MM/DD/yyyy H:mm:ss"));
     $("#japan").val(moment().add(12, "hours").format("yyyy/MM/DD H:mm:ss"));
-    $("#germany").val(moment().add(5, "hours").format("DD/MM/yyyy H:mm:ss"));
+    $("#ukraine").val(moment().add(6, "hours").format("DD/MM/yyyy H:mm:ss"));
     $("#canada").val(
       moment().subtract(1, "hours").format("MM/DD/yyyy H:mm:ss")
     );
-    $("#uk").val(moment().add(1, "hours").format("DD/MM/yyyy H:mm:ss"));
+    $("#uk").val(moment().add(4, "hours").format("DD/MM/yyyy H:mm:ss"));
     $("#egypt").val(moment().add(5, "hours").format("DD/MM/yyyy H:mm:ss"));
-    $("#spain").val(moment().add(5, "hours").format("DD/MM/yyyy H:mm:ss"));
+    $("#antarctica").val(moment().add(15, "hours").format("MM/DD/yyyy H:mm:ss"));
 
     var birth = '2022-08-24';
     var christmas = '2022-12-25';
