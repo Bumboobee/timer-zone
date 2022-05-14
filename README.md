@@ -6,6 +6,8 @@ Have you ever get yourself wondering... ***what time is in [Egypt?](https://bumb
 
 With the **[Timer zone | clock](https://bumboobee.github.io/timer-zone/)** you can do more then just see one country **timer-zone..** there are more then **6 to you enjoy it.**
 
+Some **easter-eggs** have been added, watch out for them in the **right date!!**
+
 ## About Ⓜ
 
 The **[project](https://bumboobee.github.io/timer-zone/)** was builded over the node-modules, install by the ```npm```. 
