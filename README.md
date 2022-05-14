@@ -1,27 +1,38 @@
 ## Timer zone | clock
 
-Have you ever get yourself wondering... ***what time is in [Egypt?]()*** and has to give a **google to search about it.**
+Have you ever get yourself wondering... ***what time is in [Egypt?](https://bumboobee.github.io/timer-zone/)*** and has to give a **google to search about it.**
 
 **Now get ready💅** All this **huge problem is over** and it is your time to **shine** like a diamond 💎💎
 
-With the **[Timer zone | clock]()** you can do more then just see only one country **timer-zone..** there are more then **6 to you enjoy it.**
+With the **[Timer zone | clock](https://bumboobee.github.io/timer-zone/)** you can do more then just see one country **timer-zone..** there are more then **6 to you enjoy it.**
 
 ## About Ⓜ
 
-The **[project]()** was builded over the node-modules, install by the ´´´npm´´´. 
+The **[project](https://bumboobee.github.io/timer-zone/)** was builded over the node-modules, install by the ```npm```. 
+> You can do like this to install with the node, but note that you must **[install node](https://nodejs.org/en/download/)** first.
+``` bash
+# Select the folder 
+cd FolderName
 
-Make use of the current date, that the own moment.js given to us. Awesome ham?
+# Install dependencies (moment.js)
+npm i moment --save
 
-With the base ready, the frontend was easy, using the latest Bootstrap version, wich give to us a simple way to do hard thing as center a div 🤣
+```
+
+**Making use** of the current date, that the own **[moment.js](https://momentjs.com/)** provides to us. **Awesome ham?**
+
+With the *base ready*, the frontend was easy, using the latest [Bootstrap version](https://getbootstrap.com/docs/5.1/getting-started/introduction/), wich give to us a **simple way to do hard things**... as center a div 🤣
+
+***See **[moment.js](https://momentjs.com/)** to full documentation.***
 
 ## Take a look 
 
- **The final result you can see [➡here⬅](https://bumboobee.github.io/Ids-generator/)**
+ **The final result you can see [➡here⬅](https://bumboobee.github.io/timer-zone/)**
  
 <div align="center">
+ 
+[![1998493116funny-alarm-clock-animated-gif-3](https://user-images.githubusercontent.com/94147847/168444438-16b719e1-7c3f-4585-861c-d7badda89b70.gif)](https://bumboobee.github.io/timer-zone/)
 
-[![tumblr_m6rsylpvkg1rziwwco1_500](https://user-images.githubusercontent.com/94147847/161428999-7ca8ae8e-fab0-4387-aec2-d9569dc3c833.gif)](https://bumboobee.github.io/Ids-generator/)
-
- > Before you marry a person, you should first make them use a computer with slow Internet to see who they really are.
- >> **Will Ferrell**
+ > No man goes before his time – unless the boss leaves early.
+ >> **Groucho Marx**
 <div \> 
