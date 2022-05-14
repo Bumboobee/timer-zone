@@ -4,7 +4,7 @@ Have you ever get yourself wondering... ***what time is in [Egypt?](https://bumb
 
 **Now get ready💅** All this **huge problem is over** and it is your time to **shine** like a diamond 💎💎
 
-With the **[Timer zone | clock](https://bumboobee.github.io/timer-zone/)** you can do more then just see one country **timer-zone..** there are more then **6 to you enjoy it.**
+With the **[Timer zone | clock](https://bumboobee.github.io/timer-zone/)** you can do more then just see one country **timer-zone..** there are many **to you enjoy it.**
 
 Some **easter-eggs** have been added, watch out for them in the **right date!!**
 
